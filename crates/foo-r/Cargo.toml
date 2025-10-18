@@ -1,0 +1,8 @@
+[package]
+name = "foo-r"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+foo-core = { workspace = true }
+savvy = "*"

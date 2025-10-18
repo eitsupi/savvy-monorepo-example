@@ -2,7 +2,4 @@
 
 S3method("$<-",savvy_rpkg__sealed)
 S3method("[[<-",savvy_rpkg__sealed)
-S3method(print,Person__bundle)
-export(int_times_int)
-export(to_upper)
 useDynLib(rpkg, .registration = TRUE)

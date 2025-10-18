@@ -1,0 +1,7 @@
+[workspace]
+resolver = "3"
+members = ["crates/foo-core", "crates/foo-r", "bindings/rpkg/src/rust"]
+
+[workspace.dependencies]
+foo-core = { path = "crates/foo-core" }
+foo-r = { path = "crates/foo-r" }
