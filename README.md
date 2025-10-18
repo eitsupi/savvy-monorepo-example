@@ -6,6 +6,7 @@ Update R package files:
 
 ```sh
 savvy-cli update bindings/rpkg crates/foo-r
+mv crates/foo-r/api.h bindings/rpkg/src/rust/api.h # Workaround for now
 ```
 
 Load the package:
