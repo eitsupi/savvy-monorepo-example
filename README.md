@@ -1,4 +1,4 @@
-# An example of R package using the savvy framework inside an monorepo
+# An example of R package using the savvy framework inside a monorepo
 
 See <https://github.com/yutannihilation/savvy/issues/401>
 
